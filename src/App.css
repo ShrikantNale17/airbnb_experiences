@@ -1,0 +1,108 @@
+.App {
+  margin: 0;
+}
+
+section {
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.hero-img {
+  max-width: 900px;
+  align-self: center;
+}
+
+.hero-header {
+  margin-bottom: 16px;
+}
+
+.hero-text {
+  margin-top: 0;
+}
+
+.card-container {
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  /* gap: 20px; */
+}
+
+.card {
+  position: relative;
+  width: 200px;
+  padding: 10px;
+  font-size: 14px;
+  flex: 0 0 auto;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.card-img {
+  border-radius: 10px;
+  width: 100%;
+
+}
+
+.card-badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 3px 7px;
+  background-color: white;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.star-icon {
+  max-width: 12px;
+}
+
+.review-count {
+  color: grey;
+}
+
+/* .card > p {
+  
+} */
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/* .App-link {
+  color: #61dafb;
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
